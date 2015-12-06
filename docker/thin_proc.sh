@@ -14,8 +14,8 @@ source ${SCRIPT_PATH};
 SCRIPT="${GEM_HOME}/bin/bundle exec";
 PRESCRIPT="${GEM_HOME}/bin/bundle install";
 
-if [ -e newapp ]; then
-   \cp -rpf newapp/* /root/
+if [ -e /root/newapp ]; then
+   /bin/cp -rpf /root/newapp/* /root/
 fi
 
 ${PRESCRIPT}
