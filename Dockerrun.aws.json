@@ -1,0 +1,15 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Ports": [
+    {
+      "ContainerPort": "3002"
+    }
+  ],
+  "Volumes": [
+    {
+      "HostDirectory": "/var/tmp/thin",
+      "ContainerDirectory": "/root/public"
+    }
+  ],
+  "Logging": "/root/log"
+}

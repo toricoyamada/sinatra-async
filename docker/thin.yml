@@ -1,0 +1,18 @@
+---
+chdir: /root
+user: root
+group: root
+environment: production
+threadpool_size: 200
+max_persistent_conns: 1024
+max_conns: 1024
+port: 3001
+timeout: 600
+wait: 600
+log: /root/log/thin.log
+pid: /root/thin.pid
+#max_conns: 60000
+#max_persistent_conns: 60000
+#daemonize: true
+#threaded: true
+#no-epoll: false
