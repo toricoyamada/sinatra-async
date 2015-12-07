@@ -1,3 +1,9 @@
-sinatra async
+synatra-async container image  for AWS Beanstalk (multi docker containers)
 
-for AWS beanstalk docker.
+
+expose 3002
+add newapp folder and it overwrite default app.
+
+see thin_proc.sh (called by CMD)
+
+
